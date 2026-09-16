@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/willow"
+    },
+    "P": {
+      "item": "tfc:wood/planks/willow"
+    }
+  },
+  "pattern": [
+    "PP",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:willow_basic_wooden_counter"
+  }
+}

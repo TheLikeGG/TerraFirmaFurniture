@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chestnut_basic_stripped_log_shelf": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:chestnut_basic_stripped_log_shelf"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:chestnut_basic_stripped_log_shelf"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chestnut_basic_stripped_log_shelf"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:chestnut_basic_stripped_log_shelf"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:green_carpet"
+    }
+  },
+  "pattern": [
+    "CC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:green_small_table_cloth"
+  }
+}

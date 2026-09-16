@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/acacia"
+    },
+    "T": {
+      "item": "tfc:wood/planks/acacia_slab"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "L L"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tff:acacia_table"
+  }
+}

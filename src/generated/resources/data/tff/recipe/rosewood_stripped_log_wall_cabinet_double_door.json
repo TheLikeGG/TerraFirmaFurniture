@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "G": {
+      "item": "tfc:wood/log/rosewood"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/rosewood"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "C C",
+    "LGL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:rosewood_stripped_log_wall_cabinet_double_door"
+  }
+}

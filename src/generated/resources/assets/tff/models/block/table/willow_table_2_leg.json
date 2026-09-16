@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/table/table_2_leg",
+  "textures": {
+    "body": "tfc:block/wood/planks/willow",
+    "legs": "tfc:block/wood/log/willow",
+    "particle": "tfc:block/wood/planks/willow"
+  }
+}

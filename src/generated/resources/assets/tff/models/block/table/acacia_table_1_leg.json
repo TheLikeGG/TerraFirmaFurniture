@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/table/table_1_leg",
+  "textures": {
+    "body": "tfc:block/wood/planks/acacia",
+    "legs": "tfc:block/wood/log/acacia",
+    "particle": "tfc:block/wood/planks/acacia"
+  }
+}

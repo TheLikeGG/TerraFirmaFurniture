@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/palm"
+    },
+    "T": {
+      "item": "tfc:wood/stripped_log/palm"
+    }
+  },
+  "pattern": [
+    "LL",
+    "TT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:palm_log_wooden_counter"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kapok_short_stool": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:kapok_short_stool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:kapok_short_stool"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_kapok_short_stool"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:kapok_short_stool"
+    ]
+  }
+}

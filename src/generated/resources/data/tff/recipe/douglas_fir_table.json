@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/douglas_fir"
+    },
+    "T": {
+      "item": "tfc:wood/planks/douglas_fir_slab"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "L L"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tff:douglas_fir_table"
+  }
+}

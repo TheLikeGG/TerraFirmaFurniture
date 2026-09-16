@@ -1,0 +1,99 @@
+{
+  "variants": {
+    "facing=east,shape=inner_left": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_in",
+      "uvlock": true
+    },
+    "facing=east,shape=inner_right": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_in",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,shape=outer_left": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_out",
+      "uvlock": true
+    },
+    "facing=east,shape=outer_right": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_out",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,shape=straight": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,shape=inner_left": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_in",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,shape=inner_right": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_in",
+      "uvlock": true
+    },
+    "facing=north,shape=outer_left": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_out",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,shape=outer_right": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_out",
+      "uvlock": true
+    },
+    "facing=north,shape=straight": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter",
+      "uvlock": true
+    },
+    "facing=south,shape=inner_left": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_in",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,shape=inner_right": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_in",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,shape=outer_left": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_out",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,shape=outer_right": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_out",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,shape=straight": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,shape=inner_left": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_in",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,shape=inner_right": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_in",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,shape=outer_left": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_out",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,shape=outer_right": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter_corner_out",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,shape=straight": {
+      "model": "tff:block/counter/aspen_stripped_log_granite_counter",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

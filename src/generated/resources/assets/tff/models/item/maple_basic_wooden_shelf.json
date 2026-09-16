@@ -1,0 +1,9 @@
+{
+  "parent": "tff:item/shelf/basic_shelf",
+  "textures": {
+    "log": "tfc:block/wood/stripped_log_top/maple",
+    "particle": "tfc:block/wood/planks/maple",
+    "shelf": "tfc:block/wood/stripped_log/maple",
+    "wood": "tfc:block/wood/planks/maple"
+  }
+}

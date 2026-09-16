@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/stripped_log/sequoia"
+    },
+    "P": {
+      "item": "tfc:wood/planks/sequoia"
+    }
+  },
+  "pattern": [
+    "PP",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:sequoia_stripped_basic_wooden_counter"
+  }
+}

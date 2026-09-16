@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tff:block/table/hickory_log_round_table"
+    }
+  }
+}

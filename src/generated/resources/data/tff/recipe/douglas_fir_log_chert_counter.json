@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/douglas_fir"
+    },
+    "R": {
+      "item": "tfc:rock/raw/chert_slab"
+    }
+  },
+  "pattern": [
+    "RR",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:douglas_fir_log_chert_counter"
+  }
+}

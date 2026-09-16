@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "G": {
+      "item": "tfc:wood/stripped_log/acacia"
+    },
+    "L": {
+      "item": "tfc:wood/log/acacia"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "L L",
+    "LGL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:acacia_log_wall_cabinet_with_shelf"
+  }
+}

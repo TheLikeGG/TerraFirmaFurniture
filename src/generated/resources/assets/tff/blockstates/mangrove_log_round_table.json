@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tff:block/table/mangrove_log_round_table"
+    }
+  }
+}

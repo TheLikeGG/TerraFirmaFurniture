@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "G": {
+      "item": "tfc:wood/stripped_log/douglas_fir"
+    },
+    "L": {
+      "item": "tfc:wood/log/douglas_fir"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "LCL",
+    "LGL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:douglas_fir_stripped_log_wall_cabinet_single_door"
+  }
+}

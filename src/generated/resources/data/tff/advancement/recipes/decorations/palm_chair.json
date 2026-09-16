@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_palm_chair": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:palm_chair"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:palm_chair"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_palm_chair"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:palm_chair"
+    ]
+  }
+}

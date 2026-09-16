@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:white_cedar_stripped_log_slate_counter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_cedar_stripped_log_slate_counter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:white_cedar_stripped_log_slate_counter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_white_cedar_stripped_log_slate_counter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:white_cedar_stripped_log_slate_counter"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tfc:wood/lumber/birch"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/birch"
+    }
+  },
+  "pattern": [
+    "LBL",
+    "LBL",
+    "LBL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:birch_basic_stripped_log_shelf"
+  }
+}

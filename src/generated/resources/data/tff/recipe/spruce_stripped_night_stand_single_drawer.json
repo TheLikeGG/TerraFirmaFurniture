@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/spruce"
+    },
+    "T": {
+      "item": "tfc:wood/planks/spruce_slab"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "LCL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:spruce_stripped_night_stand_single_drawer"
+  }
+}

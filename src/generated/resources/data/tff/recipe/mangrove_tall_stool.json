@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "c:rods/wooden"
+    },
+    "T": {
+      "item": "tfc:wood/lumber/mangrove"
+    }
+  },
+  "pattern": [
+    "TT",
+    "LL",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:mangrove_tall_stool"
+  }
+}

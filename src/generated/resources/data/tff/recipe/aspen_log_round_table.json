@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/aspen"
+    },
+    "R": {
+      "item": "tfc:wood/lumber/aspen"
+    }
+  },
+  "pattern": [
+    "LLL",
+    " R "
+  ],
+  "result": {
+    "count": 2,
+    "id": "tff:aspen_log_round_table"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tfc:wood/lumber/willow"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/willow"
+    }
+  },
+  "pattern": [
+    "LBL",
+    "LBL",
+    "LBL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:willow_basic_stripped_log_shelf"
+  }
+}

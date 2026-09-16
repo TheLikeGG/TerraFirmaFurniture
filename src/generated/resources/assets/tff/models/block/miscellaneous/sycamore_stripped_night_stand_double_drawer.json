@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/miscellaneous/night_stand_double_drawer",
+  "textures": {
+    "body": "tfc:block/wood/log/sycamore",
+    "handle": "tfc:block/metal/block/brass",
+    "particle": "tfc:block/wood/stripped_log/sycamore",
+    "top": "tfc:block/wood/stripped_log/sycamore"
+  }
+}

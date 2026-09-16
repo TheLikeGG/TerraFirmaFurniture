@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tff:block/table/sycamore_log_round_table"
+    }
+  }
+}

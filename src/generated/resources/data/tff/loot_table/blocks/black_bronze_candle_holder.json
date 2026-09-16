@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tff:black_bronze_candle_holder"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tff:blocks/black_bronze_candle_holder"
+}

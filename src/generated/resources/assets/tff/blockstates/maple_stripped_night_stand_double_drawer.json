@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tff:block/miscellaneous/maple_stripped_night_stand_double_drawer",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "tff:block/miscellaneous/maple_stripped_night_stand_double_drawer",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "tff:block/miscellaneous/maple_stripped_night_stand_double_drawer"
+    },
+    "facing=west": {
+      "model": "tff:block/miscellaneous/maple_stripped_night_stand_double_drawer",
+      "y": 90
+    }
+  }
+}

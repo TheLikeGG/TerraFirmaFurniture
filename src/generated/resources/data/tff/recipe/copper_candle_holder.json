@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tfc:metal/rod/copper"
+    }
+  },
+  "pattern": [
+    "R ",
+    " R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:copper_candle_holder"
+  }
+}

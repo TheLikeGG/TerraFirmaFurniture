@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/stripped_log/birch"
+    },
+    "T": {
+      "item": "tfc:wood/log/birch"
+    }
+  },
+  "pattern": [
+    "LL",
+    "TT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:birch_stripped_log_wooden_counter"
+  }
+}

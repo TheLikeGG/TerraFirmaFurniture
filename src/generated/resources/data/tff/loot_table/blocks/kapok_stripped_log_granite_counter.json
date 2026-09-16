@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tff:kapok_stripped_log_granite_counter"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tff:blocks/kapok_stripped_log_granite_counter"
+}

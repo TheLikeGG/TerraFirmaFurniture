@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/pine"
+    },
+    "T": {
+      "item": "tfc:wood/stripped_log/pine"
+    }
+  },
+  "pattern": [
+    "LL",
+    "TT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:pine_log_wooden_counter"
+  }
+}

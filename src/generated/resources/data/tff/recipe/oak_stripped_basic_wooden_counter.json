@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/stripped_log/oak"
+    },
+    "P": {
+      "item": "tfc:wood/planks/oak"
+    }
+  },
+  "pattern": [
+    "PP",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:oak_stripped_basic_wooden_counter"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/shelf/basic_shelf_bottom",
+  "textures": {
+    "log": "tfc:block/wood/log_top/palm",
+    "particle": "tfc:block/wood/log/palm",
+    "shelf": "tfc:block/wood/planks/palm",
+    "wood": "tfc:block/wood/log/palm"
+  }
+}

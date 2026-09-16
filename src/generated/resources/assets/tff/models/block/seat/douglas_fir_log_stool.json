@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/seat/log_stool",
+  "textures": {
+    "legs": "tfc:block/wood/planks/douglas_fir",
+    "log": "tfc:block/wood/log_top/douglas_fir",
+    "particle": "tfc:block/wood/log/douglas_fir",
+    "seat": "tfc:block/wood/log/douglas_fir"
+  }
+}

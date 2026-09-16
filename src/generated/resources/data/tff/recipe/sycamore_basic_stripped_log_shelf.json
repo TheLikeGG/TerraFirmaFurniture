@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tfc:wood/lumber/sycamore"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/sycamore"
+    }
+  },
+  "pattern": [
+    "LBL",
+    "LBL",
+    "LBL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:sycamore_basic_stripped_log_shelf"
+  }
+}

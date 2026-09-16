@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tfc:wood/lumber/acacia"
+    },
+    "L": {
+      "item": "tfc:wood/log/acacia"
+    }
+  },
+  "pattern": [
+    "LBL",
+    "LBL",
+    "LBL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:acacia_basic_log_shelf"
+  }
+}

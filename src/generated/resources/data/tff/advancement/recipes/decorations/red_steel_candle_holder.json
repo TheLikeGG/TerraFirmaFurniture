@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_steel_candle_holder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:red_steel_candle_holder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:red_steel_candle_holder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_red_steel_candle_holder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:red_steel_candle_holder"
+    ]
+  }
+}

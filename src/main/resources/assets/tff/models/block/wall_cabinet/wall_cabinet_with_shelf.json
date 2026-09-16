@@ -1,0 +1,183 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+			"name": "bottom",
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#bark"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#bark"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#bark"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#bark"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bark"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bark"}
+			}
+		},
+		{
+			"name": "top",
+			"from": [0, 14, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 14, 0]},
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#bark"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#bark"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#bark"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#bark"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bark"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bark"}
+			}
+		},
+		{
+			"name": "body",
+			"from": [0, 8, 1],
+			"to": [16, 14, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 6], "texture": "#wood"},
+				"east": {"uv": [0, 0, 15, 6], "texture": "#wood"},
+				"south": {"uv": [0, 0, 16, 6], "texture": "#wood"},
+				"west": {"uv": [0, 0, 15, 6], "texture": "#wood"},
+				"up": {"uv": [0, 0, 16, 15], "texture": "#wood"},
+				"down": {"uv": [0, 0, 16, 15], "texture": "#wood"}
+			}
+		},
+		{
+			"name": "body",
+			"from": [0, 2, 1],
+			"to": [1, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 2]},
+			"faces": {
+				"north": {"uv": [0, 8, 1, 14], "texture": "#wood"},
+				"east": {"uv": [0, 8, 15, 14], "texture": "#wood"},
+				"south": {"uv": [0, 8, 1, 14], "texture": "#wood"},
+				"west": {"uv": [0, 8, 15, 14], "texture": "#wood"},
+				"up": {"uv": [0, 0, 1, 15], "texture": "#wood"},
+				"down": {"uv": [0, 0, 1, 15], "texture": "#wood"}
+			}
+		},
+		{
+			"name": "body",
+			"from": [15, 2, 1],
+			"to": [16, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 2, 2]},
+			"faces": {
+				"north": {"uv": [0, 8, 1, 14], "texture": "#wood"},
+				"east": {"uv": [0, 8, 15, 14], "texture": "#wood"},
+				"south": {"uv": [0, 8, 1, 14], "texture": "#wood"},
+				"west": {"uv": [0, 8, 15, 14], "texture": "#wood"},
+				"up": {"uv": [0, 0, 1, 15], "texture": "#wood"},
+				"down": {"uv": [0, 0, 1, 15], "texture": "#wood"}
+			}
+		},
+		{
+			"name": "drawer",
+			"from": [1, 9, 0],
+			"to": [7, 13, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 9, 1]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 4], "texture": "#bark"},
+				"east": {"uv": [6, 0, 7, 4], "texture": "#bark"},
+				"south": {"uv": [0, 0, 6, 4], "texture": "#bark"},
+				"west": {"uv": [0, 0, 1, 4], "texture": "#bark"},
+				"up": {"uv": [0, 0, 6, 1], "texture": "#bark"},
+				"down": {"uv": [0, 6, 6, 7], "texture": "#bark"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [5, 10, -1],
+			"to": [6, 12, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 10, 0]},
+			"faces": {
+				"north": {"uv": [1, 0, 2, 2], "texture": "#handle"},
+				"east": {"uv": [1, 0, 2, 2], "texture": "#handle"},
+				"south": {"uv": [0, 0, 1, 2], "texture": "#handle"},
+				"west": {"uv": [0, 0, 1, 2], "texture": "#handle"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#handle"},
+				"down": {"uv": [0, 1, 1, 2], "texture": "#handle"}
+			}
+		},
+		{
+			"name": "drawer",
+			"from": [9, 9, 0],
+			"to": [15, 13, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 9, 1]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 4], "texture": "#bark"},
+				"east": {"uv": [6, 0, 7, 4], "texture": "#bark"},
+				"south": {"uv": [0, 0, 6, 4], "texture": "#bark"},
+				"west": {"uv": [0, 0, 1, 4], "texture": "#bark"},
+				"up": {"uv": [0, 0, 6, 1], "texture": "#bark"},
+				"down": {"uv": [0, 6, 6, 7], "texture": "#bark"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [10, 10, -1],
+			"to": [11, 12, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 10, 0]},
+			"faces": {
+				"north": {"uv": [1, 0, 2, 2], "texture": "#handle"},
+				"east": {"uv": [1, 0, 2, 2], "texture": "#handle"},
+				"south": {"uv": [0, 0, 1, 2], "texture": "#handle"},
+				"west": {"uv": [0, 0, 1, 2], "texture": "#handle"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#handle"},
+				"down": {"uv": [0, 1, 1, 2], "texture": "#handle"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [30, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [30, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"translation": [0, 1.75, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [30, -150, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0]
+		}
+	},
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		{
+			"name": "drawer1",
+			"origin": [2, 2, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [5, 6]
+		},
+		{
+			"name": "drawer2",
+			"origin": [2, 2, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [7, 8]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_maple_log_round_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:maple_log_round_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:maple_log_round_table"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_maple_log_round_table"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:maple_log_round_table"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nickel_candle_holder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:nickel_candle_holder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:nickel_candle_holder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nickel_candle_holder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:nickel_candle_holder"
+    ]
+  }
+}

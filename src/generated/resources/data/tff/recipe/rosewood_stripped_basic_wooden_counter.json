@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/stripped_log/rosewood"
+    },
+    "P": {
+      "item": "tfc:wood/planks/rosewood"
+    }
+  },
+  "pattern": [
+    "PP",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:rosewood_stripped_basic_wooden_counter"
+  }
+}

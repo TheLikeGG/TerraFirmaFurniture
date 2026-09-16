@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/seat/short_stool",
+  "textures": {
+    "legs": "tfc:block/wood/log/rosewood",
+    "particle": "tfc:block/wood/planks/rosewood",
+    "seat": "tfc:block/wood/planks/rosewood"
+  }
+}

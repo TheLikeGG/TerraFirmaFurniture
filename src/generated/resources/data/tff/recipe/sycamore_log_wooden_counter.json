@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/sycamore"
+    },
+    "T": {
+      "item": "tfc:wood/stripped_log/sycamore"
+    }
+  },
+  "pattern": [
+    "LL",
+    "TT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:sycamore_log_wooden_counter"
+  }
+}

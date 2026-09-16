@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tfc:metal/rod/cast_iron"
+    }
+  },
+  "pattern": [
+    "R ",
+    " R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:cast_iron_candle_holder"
+  }
+}

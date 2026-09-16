@@ -1,0 +1,33 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+			"name": "seat",
+			"from": [0, 12, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#body"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#body"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#body"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#body"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#body"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#body"}
+			}
+		},
+		{
+			"name": "leg1",
+			"from": [12, 0, 12],
+			"to": [15, 12, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 0, 12]},
+			"faces": {
+				"north": {"uv": [0, 1, 2, 15], "texture": "#legs"},
+				"east": {"uv": [0, 1, 2, 15], "texture": "#legs"},
+				"south": {"uv": [0, 1, 2, 15], "texture": "#legs"},
+				"west": {"uv": [0, 1, 2, 15], "texture": "#legs"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#legs"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#legs"}
+			}
+		}
+	]
+}

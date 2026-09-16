@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/maple"
+    },
+    "R": {
+      "item": "tfc:rock/raw/gabbro_slab"
+    }
+  },
+  "pattern": [
+    "RR",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:maple_log_gabbro_counter"
+  }
+}

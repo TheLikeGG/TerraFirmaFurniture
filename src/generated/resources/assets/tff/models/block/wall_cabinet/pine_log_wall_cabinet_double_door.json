@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/wall_cabinet/wall_cabinet_double_door",
+  "textures": {
+    "bark": "tfc:block/wood/stripped_log/pine",
+    "handle": "tfc:block/metal/block/brass",
+    "particle": "tfc:block/wood/stripped_log/pine",
+    "wood": "tfc:block/wood/log/pine"
+  }
+}

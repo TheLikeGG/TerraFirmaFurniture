@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/shelf/basic_shelf_bottom",
+  "textures": {
+    "log": "tfc:block/wood/stripped_log_top/hickory",
+    "particle": "tfc:block/wood/planks/hickory",
+    "shelf": "tfc:block/wood/stripped_log/hickory",
+    "wood": "tfc:block/wood/planks/hickory"
+  }
+}

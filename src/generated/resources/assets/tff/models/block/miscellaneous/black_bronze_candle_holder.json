@@ -1,0 +1,7 @@
+{
+  "parent": "tff:block/miscellaneous/candle_holder",
+  "textures": {
+    "metal": "tfc:block/metal/block/black_bronze",
+    "particle": "tfc:block/metal/block/black_bronze"
+  }
+}

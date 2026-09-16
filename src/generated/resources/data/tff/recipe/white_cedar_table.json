@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/white_cedar"
+    },
+    "T": {
+      "item": "tfc:wood/planks/white_cedar_slab"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "L L"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tff:white_cedar_table"
+  }
+}

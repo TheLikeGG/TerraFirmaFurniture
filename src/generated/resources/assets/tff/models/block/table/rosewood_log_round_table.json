@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "tfc:block/wood/planks/rosewood",
+    "body": "tfc:block/wood/log_top/rosewood",
+    "edges": "tfc:block/wood/log/rosewood",
+    "particle": "tfc:block/wood/log/rosewood",
+    "trunk": "tfc:block/wood/stripped_log/rosewood"
+  }
+}

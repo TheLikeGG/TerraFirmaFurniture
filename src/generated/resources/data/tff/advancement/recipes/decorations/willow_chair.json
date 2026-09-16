@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:willow_chair"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_willow_chair": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:willow_chair"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_willow_chair"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:willow_chair"
+    ]
+  }
+}

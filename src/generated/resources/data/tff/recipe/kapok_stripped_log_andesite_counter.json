@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/stripped_log/kapok"
+    },
+    "R": {
+      "item": "tfc:rock/raw/andesite_slab"
+    }
+  },
+  "pattern": [
+    "RR",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:kapok_stripped_log_andesite_counter"
+  }
+}

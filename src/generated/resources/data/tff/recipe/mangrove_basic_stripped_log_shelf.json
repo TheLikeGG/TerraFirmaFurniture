@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tfc:wood/lumber/mangrove"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/mangrove"
+    }
+  },
+  "pattern": [
+    "LBL",
+    "LBL",
+    "LBL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:mangrove_basic_stripped_log_shelf"
+  }
+}

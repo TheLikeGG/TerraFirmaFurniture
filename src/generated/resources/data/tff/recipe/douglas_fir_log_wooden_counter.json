@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/douglas_fir"
+    },
+    "T": {
+      "item": "tfc:wood/stripped_log/douglas_fir"
+    }
+  },
+  "pattern": [
+    "LL",
+    "TT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:douglas_fir_log_wooden_counter"
+  }
+}

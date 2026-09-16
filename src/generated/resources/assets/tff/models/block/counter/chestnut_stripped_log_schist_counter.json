@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/counter/basic_wooden_counter",
+  "textures": {
+    "body": "tfc:block/wood/stripped_log/chestnut",
+    "particle": "tfc:block/rock/raw/schist",
+    "top": "tfc:block/rock/raw/schist"
+  }
+}

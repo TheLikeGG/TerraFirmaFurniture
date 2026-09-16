@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tfc:metal/rod/zinc"
+    }
+  },
+  "pattern": [
+    "R ",
+    " R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:zinc_candle_holder"
+  }
+}

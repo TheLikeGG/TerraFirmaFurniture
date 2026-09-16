@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/seat/log_stool",
+  "textures": {
+    "legs": "tfc:block/wood/planks/white_cedar",
+    "log": "tfc:block/wood/log_top/white_cedar",
+    "particle": "tfc:block/wood/log/white_cedar",
+    "seat": "tfc:block/wood/log/white_cedar"
+  }
+}

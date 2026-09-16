@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "tff:maple_basic_stripped_log_shelf",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "tff:maple_basic_stripped_log_shelf"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tff:blocks/maple_basic_stripped_log_shelf"
+}
