@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sequoia_log_slate_counter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:sequoia_log_slate_counter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:sequoia_log_slate_counter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sequoia_log_slate_counter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:sequoia_log_slate_counter"
+    ]
+  }
+}

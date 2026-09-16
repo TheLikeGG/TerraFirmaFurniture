@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "c:rods/wooden"
+    },
+    "T": {
+      "item": "tfc:wood/lumber/rosewood"
+    }
+  },
+  "pattern": [
+    "TT",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:rosewood_short_stool"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ash_basic_wooden_shelf": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:ash_basic_wooden_shelf"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:ash_basic_wooden_shelf"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ash_basic_wooden_shelf"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:ash_basic_wooden_shelf"
+    ]
+  }
+}

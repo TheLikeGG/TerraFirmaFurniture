@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/stripped_log/willow"
+    },
+    "R": {
+      "item": "tfc:rock/raw/diorite_slab"
+    }
+  },
+  "pattern": [
+    "RR",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:willow_stripped_log_diorite_counter"
+  }
+}

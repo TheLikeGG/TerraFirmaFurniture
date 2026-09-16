@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/miscellaneous/night_stand_single_drawer",
+  "textures": {
+    "body": "tfc:block/wood/log/ash",
+    "handle": "tfc:block/metal/block/brass",
+    "particle": "tfc:block/wood/stripped_log/ash",
+    "top": "tfc:block/wood/stripped_log/ash"
+  }
+}

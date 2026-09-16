@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/sequoia"
+    },
+    "T": {
+      "item": "tfc:wood/planks/sequoia_slab"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "L L"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tff:sequoia_table"
+  }
+}

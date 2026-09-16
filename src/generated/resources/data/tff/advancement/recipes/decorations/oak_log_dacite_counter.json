@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oak_log_dacite_counter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:oak_log_dacite_counter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:oak_log_dacite_counter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_oak_log_dacite_counter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:oak_log_dacite_counter"
+    ]
+  }
+}

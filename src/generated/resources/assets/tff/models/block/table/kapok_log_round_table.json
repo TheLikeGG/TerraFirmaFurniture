@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "tfc:block/wood/planks/kapok",
+    "body": "tfc:block/wood/log_top/kapok",
+    "edges": "tfc:block/wood/log/kapok",
+    "particle": "tfc:block/wood/log/kapok",
+    "trunk": "tfc:block/wood/stripped_log/kapok"
+  }
+}

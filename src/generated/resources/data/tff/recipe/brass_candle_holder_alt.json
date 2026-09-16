@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tfc:metal/rod/brass"
+    }
+  },
+  "pattern": [
+    " R",
+    "R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:brass_candle_holder"
+  }
+}

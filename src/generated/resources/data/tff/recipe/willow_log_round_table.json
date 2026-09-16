@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/willow"
+    },
+    "R": {
+      "item": "tfc:wood/lumber/willow"
+    }
+  },
+  "pattern": [
+    "LLL",
+    " R "
+  ],
+  "result": {
+    "count": 2,
+    "id": "tff:willow_log_round_table"
+  }
+}

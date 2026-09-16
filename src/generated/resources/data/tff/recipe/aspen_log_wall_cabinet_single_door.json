@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "G": {
+      "item": "tfc:wood/log/aspen"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/aspen"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "LCL",
+    "LGL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:aspen_log_wall_cabinet_single_door"
+  }
+}

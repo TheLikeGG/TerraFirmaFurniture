@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/seat/log_stool",
+  "textures": {
+    "legs": "tfc:block/wood/planks/willow",
+    "log": "tfc:block/wood/log_top/willow",
+    "particle": "tfc:block/wood/log/willow",
+    "seat": "tfc:block/wood/log/willow"
+  }
+}

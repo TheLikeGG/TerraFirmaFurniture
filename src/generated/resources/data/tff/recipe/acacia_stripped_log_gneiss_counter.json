@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/stripped_log/acacia"
+    },
+    "R": {
+      "item": "tfc:rock/raw/gneiss_slab"
+    }
+  },
+  "pattern": [
+    "RR",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:acacia_stripped_log_gneiss_counter"
+  }
+}

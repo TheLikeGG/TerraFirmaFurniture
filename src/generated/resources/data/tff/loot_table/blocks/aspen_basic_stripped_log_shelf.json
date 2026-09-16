@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "tff:aspen_basic_stripped_log_shelf",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "tff:aspen_basic_stripped_log_shelf"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tff:blocks/aspen_basic_stripped_log_shelf"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tff:sycamore_stripped_night_stand_single_drawer"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tff:blocks/sycamore_stripped_night_stand_single_drawer"
+}

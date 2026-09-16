@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/seat/chair",
+  "textures": {
+    "legs": "tfc:block/wood/log/kapok",
+    "particle": "tfc:block/wood/planks/kapok",
+    "seat": "tfc:block/wood/planks/kapok"
+  }
+}

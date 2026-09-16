@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/blackwood"
+    },
+    "R": {
+      "item": "tfc:wood/lumber/blackwood"
+    }
+  },
+  "pattern": [
+    "LLL",
+    " R "
+  ],
+  "result": {
+    "count": 2,
+    "id": "tff:blackwood_log_round_table"
+  }
+}

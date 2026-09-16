@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/oak"
+    },
+    "T": {
+      "item": "tfc:wood/planks/oak_slab"
+    }
+  },
+  "pattern": [
+    "TCT",
+    "LCL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:oak_stripped_night_stand_double_drawer"
+  }
+}

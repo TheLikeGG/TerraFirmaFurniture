@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tff:block/seat/hickory_chair",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tff:block/seat/hickory_chair"
+    },
+    "facing=south": {
+      "model": "tff:block/seat/hickory_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tff:block/seat/hickory_chair",
+      "y": 270
+    }
+  }
+}

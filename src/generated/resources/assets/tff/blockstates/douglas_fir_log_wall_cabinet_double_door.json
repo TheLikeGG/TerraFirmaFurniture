@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tff:block/wall_cabinet/douglas_fir_log_wall_cabinet_double_door",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tff:block/wall_cabinet/douglas_fir_log_wall_cabinet_double_door"
+    },
+    "facing=south": {
+      "model": "tff:block/wall_cabinet/douglas_fir_log_wall_cabinet_double_door",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tff:block/wall_cabinet/douglas_fir_log_wall_cabinet_double_door",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "G": {
+      "item": "tfc:wood/log/ash"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/ash"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "C C",
+    "LGL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:ash_stripped_log_wall_cabinet_double_door"
+  }
+}

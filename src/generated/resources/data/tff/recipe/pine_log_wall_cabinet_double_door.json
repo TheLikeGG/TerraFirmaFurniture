@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "G": {
+      "item": "tfc:wood/stripped_log/pine"
+    },
+    "L": {
+      "item": "tfc:wood/log/pine"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "C C",
+    "LGL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:pine_log_wall_cabinet_double_door"
+  }
+}

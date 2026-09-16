@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/seat/tall_stool",
+  "textures": {
+    "legs": "tfc:block/wood/log/maple",
+    "particle": "tfc:block/wood/planks/maple",
+    "seat": "tfc:block/wood/planks/maple"
+  }
+}

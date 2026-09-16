@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tfc:metal/rod/bismuth_bronze"
+    }
+  },
+  "pattern": [
+    " R",
+    "R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:bismuth_bronze_candle_holder"
+  }
+}

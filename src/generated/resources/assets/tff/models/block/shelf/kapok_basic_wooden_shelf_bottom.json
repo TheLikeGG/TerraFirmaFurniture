@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/shelf/basic_shelf_bottom",
+  "textures": {
+    "log": "tfc:block/wood/stripped_log_top/kapok",
+    "particle": "tfc:block/wood/planks/kapok",
+    "shelf": "tfc:block/wood/stripped_log/kapok",
+    "wood": "tfc:block/wood/planks/kapok"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "tfc:block/wood/planks/aspen",
+    "body": "tfc:block/wood/log_top/aspen",
+    "edges": "tfc:block/wood/log/aspen",
+    "particle": "tfc:block/wood/log/aspen",
+    "trunk": "tfc:block/wood/stripped_log/aspen"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/log/pine"
+    },
+    "R": {
+      "item": "tfc:wood/lumber/pine"
+    }
+  },
+  "pattern": [
+    "LLL",
+    " R "
+  ],
+  "result": {
+    "count": 2,
+    "id": "tff:pine_log_round_table"
+  }
+}

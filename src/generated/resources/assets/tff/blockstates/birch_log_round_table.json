@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tff:block/table/birch_log_round_table"
+    }
+  }
+}

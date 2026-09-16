@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": { "model": "tff:block/shelf/basic_shelf_bottom" },
+    "half=upper": { "model": "tff:block/shelf/basic_shelf_top" }
+  }
+}

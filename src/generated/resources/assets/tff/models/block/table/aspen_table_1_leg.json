@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/table/table_1_leg",
+  "textures": {
+    "body": "tfc:block/wood/planks/aspen",
+    "legs": "tfc:block/wood/log/aspen",
+    "particle": "tfc:block/wood/planks/aspen"
+  }
+}

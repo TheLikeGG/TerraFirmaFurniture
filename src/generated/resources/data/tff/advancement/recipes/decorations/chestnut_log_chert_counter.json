@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chestnut_log_chert_counter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:chestnut_log_chert_counter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:chestnut_log_chert_counter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chestnut_log_chert_counter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:chestnut_log_chert_counter"
+    ]
+  }
+}

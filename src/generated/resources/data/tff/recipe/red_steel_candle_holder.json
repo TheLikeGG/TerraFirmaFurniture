@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tfc:metal/rod/red_steel"
+    }
+  },
+  "pattern": [
+    "R ",
+    " R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:red_steel_candle_holder"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/counter/basic_wooden_counter_corner_in",
+  "textures": {
+    "body": "tfc:block/wood/log/white_cedar",
+    "particle": "tfc:block/rock/raw/marble",
+    "top": "tfc:block/rock/raw/marble"
+  }
+}

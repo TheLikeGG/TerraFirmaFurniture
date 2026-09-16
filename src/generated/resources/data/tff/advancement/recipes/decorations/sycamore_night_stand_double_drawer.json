@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sycamore_night_stand_double_drawer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:sycamore_night_stand_double_drawer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:sycamore_night_stand_double_drawer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sycamore_night_stand_double_drawer"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:sycamore_night_stand_double_drawer"
+    ]
+  }
+}

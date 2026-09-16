@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_maple_stripped_log_basalt_counter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:maple_stripped_log_basalt_counter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:maple_stripped_log_basalt_counter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_maple_stripped_log_basalt_counter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:maple_stripped_log_basalt_counter"
+    ]
+  }
+}

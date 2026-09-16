@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "c:rods/wooden"
+    },
+    "T": {
+      "item": "tfc:wood/lumber/sycamore"
+    }
+  },
+  "pattern": [
+    "T ",
+    "TT",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:sycamore_chair"
+  }
+}

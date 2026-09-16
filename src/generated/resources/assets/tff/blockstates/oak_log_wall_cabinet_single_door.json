@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tff:block/wall_cabinet/oak_log_wall_cabinet_single_door",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tff:block/wall_cabinet/oak_log_wall_cabinet_single_door"
+    },
+    "facing=south": {
+      "model": "tff:block/wall_cabinet/oak_log_wall_cabinet_single_door",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tff:block/wall_cabinet/oak_log_wall_cabinet_single_door",
+      "y": 270
+    }
+  }
+}

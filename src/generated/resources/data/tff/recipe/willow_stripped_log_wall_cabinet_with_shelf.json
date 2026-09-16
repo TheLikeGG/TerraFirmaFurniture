@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "G": {
+      "item": "tfc:wood/log/willow"
+    },
+    "L": {
+      "item": "tfc:wood/stripped_log/willow"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "L L",
+    "LGL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:willow_stripped_log_wall_cabinet_with_shelf"
+  }
+}

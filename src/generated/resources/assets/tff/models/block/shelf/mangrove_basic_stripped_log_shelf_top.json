@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/shelf/basic_shelf_top",
+  "textures": {
+    "log": "tfc:block/wood/stripped_log_top/mangrove",
+    "particle": "tfc:block/wood/stripped_log/mangrove",
+    "shelf": "tfc:block/wood/planks/mangrove",
+    "wood": "tfc:block/wood/stripped_log/mangrove"
+  }
+}

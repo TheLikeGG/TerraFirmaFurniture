@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/wall_cabinet/wall_cabinet_with_shelf",
+  "textures": {
+    "bark": "tfc:block/wood/log/white_cedar",
+    "handle": "tfc:block/metal/block/brass",
+    "particle": "tfc:block/wood/log/white_cedar",
+    "wood": "tfc:block/wood/stripped_log/white_cedar"
+  }
+}

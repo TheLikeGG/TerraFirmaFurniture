@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/seat/log_stool",
+  "textures": {
+    "legs": "tfc:block/wood/planks/mangrove",
+    "log": "tfc:block/wood/log_top/mangrove",
+    "particle": "tfc:block/wood/log/mangrove",
+    "seat": "tfc:block/wood/log/mangrove"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_acacia_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:acacia_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:acacia_table"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_acacia_table"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:acacia_table"
+    ]
+  }
+}

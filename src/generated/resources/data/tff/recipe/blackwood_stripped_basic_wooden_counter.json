@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tfc:wood/stripped_log/blackwood"
+    },
+    "P": {
+      "item": "tfc:wood/planks/blackwood"
+    }
+  },
+  "pattern": [
+    "PP",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:blackwood_stripped_basic_wooden_counter"
+  }
+}

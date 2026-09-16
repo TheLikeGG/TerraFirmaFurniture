@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kapok_stripped_log_rhyolite_counter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:kapok_stripped_log_rhyolite_counter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:kapok_stripped_log_rhyolite_counter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_kapok_stripped_log_rhyolite_counter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:kapok_stripped_log_rhyolite_counter"
+    ]
+  }
+}

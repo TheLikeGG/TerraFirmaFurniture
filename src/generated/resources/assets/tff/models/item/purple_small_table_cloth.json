@@ -1,0 +1,7 @@
+{
+  "parent": "tff:block/table/small_table_cloth",
+  "textures": {
+    "cloth": "minecraft:block/purple_wool",
+    "particle": "minecraft:block/purple_wool"
+  }
+}
