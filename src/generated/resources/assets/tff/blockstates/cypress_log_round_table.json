@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tff:block/table/cypress_log_round_table"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/seat/log_stool",
+  "textures": {
+    "legs": "afc:block/wood/planks/araucaria",
+    "log": "afc:block/wood/log_top/araucaria",
+    "particle": "afc:block/wood/log/araucaria",
+    "seat": "afc:block/wood/log/araucaria"
+  }
+}

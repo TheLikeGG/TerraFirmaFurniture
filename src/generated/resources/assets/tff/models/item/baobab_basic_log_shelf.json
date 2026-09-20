@@ -1,0 +1,9 @@
+{
+  "parent": "tff:item/shelf/basic_shelf",
+  "textures": {
+    "log": "afc:block/wood/log_top/baobab",
+    "particle": "afc:block/wood/log/baobab",
+    "shelf": "afc:block/wood/planks/baobab",
+    "wood": "afc:block/wood/log/baobab"
+  }
+}

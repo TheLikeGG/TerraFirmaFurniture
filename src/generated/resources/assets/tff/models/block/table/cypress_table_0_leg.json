@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/table/table_0_leg",
+  "textures": {
+    "body": "afc:block/wood/planks/cypress",
+    "legs": "afc:block/wood/log/cypress",
+    "particle": "afc:block/wood/planks/cypress"
+  }
+}

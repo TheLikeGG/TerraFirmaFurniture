@@ -14,6 +14,7 @@ import com.likegg.tff.blocks.seat.TallStoolBlock;
 import com.likegg.tff.blocks.shelf.BasicShelfBlock;
 import com.likegg.tff.blocks.table.LogRoundTable;
 import com.likegg.tff.blocks.table.WoodenTableBlock;
+import com.likegg.tff.compat.AFC;
 import net.dries007.tfc.common.blocks.wood.Wood;
 import net.dries007.tfc.util.Metal;
 import net.minecraft.world.level.block.Block;
@@ -28,7 +29,6 @@ import net.dries007.tfc.common.blocks.rock.Rock;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
-import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks("tff");
@@ -65,6 +65,7 @@ public class ModBlocks {
     public static final Map<Wood, DeferredBlock<Block>> BASIC_WOODEN_SHELVES = registerWoodBlock(BasicShelfBlock::new, "_basic_wooden_shelf");
     public static final Map<Wood, DeferredBlock<Block>> BASIC_LOG_SHELVES = registerWoodBlock(BasicShelfBlock::new, "_basic_log_shelf");
     public static final Map<Wood, DeferredBlock<Block>> BASIC_STRIPPED_LOG_SHELVES = registerWoodBlock(BasicShelfBlock::new, "_basic_stripped_log_shelf");
+
 
     private static <T extends Block> Map<Wood, DeferredBlock<Block>> registerWoodBlock(Function<BlockBehaviour.Properties, T> blockFactory, String name) {
         Map<Wood, DeferredBlock<Block>> map = new HashMap<>();
@@ -147,6 +148,11 @@ public class ModBlocks {
                             .requiresCorrectToolForDrops()
                             .lightLevel(CandleHolderBlock::getLightEmission)
                     )));
+        }
+
+
+        if (AFC.isLoaded()){
+            AFC.registerBlocks();
         }
     }
 }

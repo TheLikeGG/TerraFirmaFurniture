@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "afc:block/wood/planks/baobab",
+    "body": "afc:block/wood/log_top/baobab",
+    "edges": "afc:block/wood/log/baobab",
+    "particle": "afc:block/wood/log/baobab",
+    "trunk": "afc:block/wood/stripped_log/baobab"
+  }
+}

@@ -1,10 +1,13 @@
 package com.likegg.tff.datagen;
 
 import com.likegg.tff.TerraFirmaFurniture;
+import com.likegg.tff.compat.ModBlocksAFC;
+import com.likegg.tff.compat.ModItemsAFC;
 import com.likegg.tff.items.TableClothItem;
 import com.likegg.tff.registry.ModBlocks;
 import com.likegg.tff.registry.ModItems;
 import com.mojang.datafixers.util.Pair;
+import com.therighthon.afc.common.blocks.AFCWood;
 import net.dries007.tfc.common.blocks.wood.Wood;
 import net.dries007.tfc.util.Metal;
 import net.minecraft.data.PackOutput;
@@ -14,7 +17,6 @@ import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
-import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -34,6 +36,13 @@ public class ModItemModelProvider extends ItemModelProvider {
             withExistingParent(blockPath, modLoc("block/" + subfolder + "/" + blockPath));
         });
     }
+    private void registerWoodenBlockItemModelsAFC(Map<AFCWood, DeferredBlock<Block>> blockMap, String subfolder) {
+        blockMap.forEach((wood, block) -> {
+            String blockPath = block.getId().getPath();
+
+            withExistingParent(blockPath, modLoc("block/" + subfolder + "/" + blockPath));
+        });
+    }
 
     private void registerWoodenBlockItemModelsWithPath(Map<Wood, DeferredBlock<Block>> blockMap, String subfolder, String suffix) {
         blockMap.forEach((wood, block) -> {
@@ -41,7 +50,13 @@ public class ModItemModelProvider extends ItemModelProvider {
 
             withExistingParent(block.getId().getPath(), modLoc("block/" + subfolder + "/" + woodName + suffix));
         });
+    }
+    private void registerWoodenBlockItemModelsWithPathAFC(Map<AFCWood, DeferredBlock<Block>> blockMap, String subfolder, String suffix) {
+        blockMap.forEach((wood, block) -> {
+            String woodName = wood.getSerializedName();
 
+            withExistingParent(block.getId().getPath(), modLoc("block/" + subfolder + "/" + woodName + suffix));
+        });
     }
 
     private void registerMetalItemModels(Map<Metal, DeferredItem<Item>> blockMap, String subfolder, String suffix){
@@ -71,6 +86,13 @@ public class ModItemModelProvider extends ItemModelProvider {
             withExistingParent(block.getId().getPath(), modLoc("block/counter/" + woodName + infix + rockName + "_counter"));
         });
     }
+    private void registerWoodRockCounterBlockItemModelsAFC(Map<Pair<AFCWood, Rock>, DeferredBlock<Block>> blockMap, String infix) {
+        blockMap.forEach((pair, block) -> {
+            String woodName = pair.getFirst().getSerializedName();
+            String rockName = pair.getSecond().getSerializedName();
+            withExistingParent(block.getId().getPath(), modLoc("block/counter/" + woodName + infix + rockName + "_counter"));
+        });
+    }
 
     private void registerDrawerItemModels(Map<Wood, DeferredItem<Item>> drawerMap, String baseModelName) {
         drawerMap.forEach((wood, item) -> {
@@ -94,6 +116,22 @@ public class ModItemModelProvider extends ItemModelProvider {
             ResourceLocation woodTexture = ResourceLocation.fromNamespaceAndPath("tfc", woodTex + woodName);
             ResourceLocation shelfTexture = ResourceLocation.fromNamespaceAndPath("tfc", shelfTex + woodName);
             ResourceLocation logTexture = ResourceLocation.fromNamespaceAndPath("tfc", logTex + woodName);
+
+            withExistingParent(item.getId().getPath(), modLoc("item/shelf/basic_shelf"))
+                    .texture("wood", woodTexture)
+                    .texture("shelf", shelfTexture)
+                    .texture("log", logTexture)
+                    .texture("particle", woodTexture);
+
+        });
+    }
+    private void registerShelfItemModelsAFC(Map<AFCWood, DeferredItem<Item>> map, String name, String woodTex, String shelfTex, String logTex){
+        map.forEach((wood, item) -> {
+            String woodName = wood.getSerializedName();
+
+            ResourceLocation woodTexture = ResourceLocation.fromNamespaceAndPath("afc", woodTex + woodName);
+            ResourceLocation shelfTexture = ResourceLocation.fromNamespaceAndPath("afc", shelfTex + woodName);
+            ResourceLocation logTexture = ResourceLocation.fromNamespaceAndPath("afc", logTex + woodName);
 
             withExistingParent(item.getId().getPath(), modLoc("item/shelf/basic_shelf"))
                     .texture("wood", woodTexture)
@@ -149,6 +187,45 @@ public class ModItemModelProvider extends ItemModelProvider {
         registerShelfItemModels(ModItems.BASIC_WOODEN_SHELVES, "shelf", "block/wood/planks/", "block/wood/stripped_log/", "block/wood/stripped_log_top/");
         registerShelfItemModels(ModItems.BASIC_LOG_SHELVES, "shelf", "block/wood/log/", "block/wood/planks/", "block/wood/log_top/");
         registerShelfItemModels(ModItems.BASIC_STRIPPED_LOG_SHELVES, "shelf", "block/wood/stripped_log/", "block/wood/planks/", "block/wood/stripped_log_top/");
+
+
+        // ------------------------------
+        // --- ArborFirmaCraft Compat ---
+        // Seats and Tables
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.WOODEN_CHAIRS, "seat");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.WOODEN_SHORT_STOOLS, "seat");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.WOODEN_TALL_STOOLS, "seat");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.LOG_STOOLS, "seat");
+        registerWoodenBlockItemModelsWithPathAFC(ModBlocksAFC.WOODEN_TABLES, "table", "_table_4_leg");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.LOG_ROUND_TABLES, "table");
+
+        // Counters
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.BASIC_WOODEN_COUNTERS, "counter");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.LOG_WOODEN_COUNTERS, "counter");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.STRIPPED_LOG_WOODEN_COUNTERS, "counter");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.STRIPPED_BASIC_WOODEN_COUNTERS, "counter");
+        registerWoodRockCounterBlockItemModelsAFC(ModBlocksAFC.LOG_STONE_COUNTERS, "_log_");
+        registerWoodRockCounterBlockItemModelsAFC(ModBlocksAFC.STRIPPED_LOG_STONE_COUNTERS, "_stripped_log_");
+
+        // Miscellaneous
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.NIGHT_STANDS_SINGLE_DRAWER, "miscellaneous");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.NIGHT_STANDS_DOUBLE_DRAWER, "miscellaneous");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.STRIPPED_NIGHT_STANDS_SINGLE_DRAWER, "miscellaneous");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.STRIPPED_NIGHT_STANDS_DOUBLE_DRAWER, "miscellaneous");
+
+        // Wall Cabinets
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.LOG_WALL_CABINETS_SINGLE_DOOR, "wall_cabinet");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.STRIPPED_LOG_WALL_CABINETS_SINGLE_DOOR, "wall_cabinet");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.LOG_WALL_CABINETS_DOUBLE_DOOR, "wall_cabinet");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.STRIPPED_LOG_WALL_CABINETS_DOUBLE_DOOR, "wall_cabinet");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.LOG_WALL_CABINETS_WITH_SHELF, "wall_cabinet");
+        registerWoodenBlockItemModelsAFC(ModBlocksAFC.STRIPPED_LOG_WALL_CABINETS_WITH_SHELF, "wall_cabinet");
+
+        // Shelves
+        registerShelfItemModelsAFC(ModItemsAFC.BASIC_WOODEN_SHELVES, "shelf", "block/wood/planks/", "block/wood/stripped_log/", "block/wood/stripped_log_top/");
+        registerShelfItemModelsAFC(ModItemsAFC.BASIC_LOG_SHELVES, "shelf", "block/wood/log/", "block/wood/planks/", "block/wood/log_top/");
+        registerShelfItemModelsAFC(ModItemsAFC.BASIC_STRIPPED_LOG_SHELVES, "shelf", "block/wood/stripped_log/", "block/wood/planks/", "block/wood/stripped_log_top/");
+
 
     }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/seat/log_stool",
+  "textures": {
+    "legs": "afc:block/wood/planks/ipe",
+    "log": "afc:block/wood/log_top/ipe",
+    "particle": "afc:block/wood/log/ipe",
+    "seat": "afc:block/wood/log/ipe"
+  }
+}

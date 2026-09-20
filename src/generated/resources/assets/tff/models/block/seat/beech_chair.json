@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/seat/chair",
+  "textures": {
+    "legs": "afc:block/wood/log/beech",
+    "particle": "afc:block/wood/planks/beech",
+    "seat": "afc:block/wood/planks/beech"
+  }
+}

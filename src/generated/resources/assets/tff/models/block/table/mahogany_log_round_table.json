@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "afc:block/wood/planks/mahogany",
+    "body": "afc:block/wood/log_top/mahogany",
+    "edges": "afc:block/wood/log/mahogany",
+    "particle": "afc:block/wood/log/mahogany",
+    "trunk": "afc:block/wood/stripped_log/mahogany"
+  }
+}

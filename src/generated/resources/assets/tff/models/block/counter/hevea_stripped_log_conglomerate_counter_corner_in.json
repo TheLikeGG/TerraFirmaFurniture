@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/counter/basic_wooden_counter_corner_in",
+  "textures": {
+    "body": "afc:block/wood/stripped_log/hevea",
+    "particle": "tfc:block/rock/raw/conglomerate",
+    "top": "tfc:block/rock/raw/conglomerate"
+  }
+}

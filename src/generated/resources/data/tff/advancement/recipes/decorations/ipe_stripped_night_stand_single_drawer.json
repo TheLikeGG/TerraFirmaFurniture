@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "afc"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ipe_stripped_night_stand_single_drawer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:ipe_stripped_night_stand_single_drawer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:ipe_stripped_night_stand_single_drawer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ipe_stripped_night_stand_single_drawer"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:ipe_stripped_night_stand_single_drawer"
+    ]
+  }
+}

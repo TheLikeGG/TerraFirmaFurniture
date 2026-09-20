@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "afc:block/wood/planks/hevea",
+    "body": "afc:block/wood/log_top/hevea",
+    "edges": "afc:block/wood/log/hevea",
+    "particle": "afc:block/wood/log/hevea",
+    "trunk": "afc:block/wood/stripped_log/hevea"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tff:block/table/ipe_log_round_table"
+    }
+  }
+}

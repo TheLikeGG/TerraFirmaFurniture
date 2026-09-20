@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/counter/basic_wooden_counter_corner_in",
+  "textures": {
+    "body": "afc:block/wood/stripped_log/eucalyptus",
+    "particle": "afc:block/wood/log/eucalyptus",
+    "top": "afc:block/wood/log/eucalyptus"
+  }
+}

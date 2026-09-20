@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "afc:block/wood/planks/ginkgo",
+    "body": "afc:block/wood/log_top/ginkgo",
+    "edges": "afc:block/wood/log/ginkgo",
+    "particle": "afc:block/wood/log/ginkgo",
+    "trunk": "afc:block/wood/stripped_log/ginkgo"
+  }
+}

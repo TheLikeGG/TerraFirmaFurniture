@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "afc"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tff:tualang_stripped_log_schist_counter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tualang_stripped_log_schist_counter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tff:tualang_stripped_log_schist_counter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tualang_stripped_log_schist_counter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tff:tualang_stripped_log_schist_counter"
+    ]
+  }
+}

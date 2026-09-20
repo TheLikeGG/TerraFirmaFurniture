@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "afc:block/wood/planks/mahoe",
+    "body": "afc:block/wood/log_top/mahoe",
+    "edges": "afc:block/wood/log/mahoe",
+    "particle": "afc:block/wood/log/mahoe",
+    "trunk": "afc:block/wood/stripped_log/mahoe"
+  }
+}

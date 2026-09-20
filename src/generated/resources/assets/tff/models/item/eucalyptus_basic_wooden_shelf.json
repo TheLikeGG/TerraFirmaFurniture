@@ -1,0 +1,9 @@
+{
+  "parent": "tff:item/shelf/basic_shelf",
+  "textures": {
+    "log": "afc:block/wood/stripped_log_top/eucalyptus",
+    "particle": "afc:block/wood/planks/eucalyptus",
+    "shelf": "afc:block/wood/stripped_log/eucalyptus",
+    "wood": "afc:block/wood/planks/eucalyptus"
+  }
+}

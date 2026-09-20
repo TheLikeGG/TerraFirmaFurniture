@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/seat/log_stool",
+  "textures": {
+    "legs": "afc:block/wood/planks/eucalyptus",
+    "log": "afc:block/wood/log_top/eucalyptus",
+    "particle": "afc:block/wood/log/eucalyptus",
+    "seat": "afc:block/wood/log/eucalyptus"
+  }
+}

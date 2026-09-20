@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/counter/basic_wooden_counter",
+  "textures": {
+    "body": "afc:block/wood/stripped_log/ipe",
+    "particle": "afc:block/wood/log/ipe",
+    "top": "afc:block/wood/log/ipe"
+  }
+}

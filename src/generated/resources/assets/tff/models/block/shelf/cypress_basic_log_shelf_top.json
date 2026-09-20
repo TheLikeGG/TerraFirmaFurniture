@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/shelf/basic_shelf_top",
+  "textures": {
+    "log": "afc:block/wood/log_top/cypress",
+    "particle": "afc:block/wood/log/cypress",
+    "shelf": "afc:block/wood/planks/cypress",
+    "wood": "afc:block/wood/log/cypress"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/seat/log_stool",
+  "textures": {
+    "legs": "afc:block/wood/planks/mahogany",
+    "log": "afc:block/wood/log_top/mahogany",
+    "particle": "afc:block/wood/log/mahogany",
+    "seat": "afc:block/wood/log/mahogany"
+  }
+}

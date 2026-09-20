@@ -1,6 +1,8 @@
 package com.likegg.tff.datagen;
 
 import com.likegg.tff.TerraFirmaFurniture;
+import com.likegg.tff.compat.AFC;
+import com.likegg.tff.compat.ModBlocksAFC;
 import com.likegg.tff.registry.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -101,5 +103,85 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         ModBlocks.STRIPPED_NIGHT_STANDS_DOUBLE_DRAWER.values().forEach(block -> {
             axeMineable.add(block.get());
         });
+
+        if (AFC.isLoaded()){
+            ModBlocksAFC.WOODEN_CHAIRS.values().forEach(chair -> {
+                axeMineable.add(chair.get());
+            });
+            ModBlocksAFC.WOODEN_SHORT_STOOLS.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.WOODEN_TALL_STOOLS.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.WOODEN_TABLES.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.LOG_STOOLS.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.BASIC_WOODEN_COUNTERS.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.LOG_WOODEN_COUNTERS.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.STRIPPED_LOG_WOODEN_COUNTERS.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.STRIPPED_BASIC_WOODEN_COUNTERS.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.LOG_ROUND_TABLES.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.LOG_STONE_COUNTERS.values().forEach(block -> {
+                axeMineable.add(block.get());
+                pickaxeMineable.add(block.get());
+            });
+            ModBlocksAFC.STRIPPED_LOG_STONE_COUNTERS.values().forEach(block -> {
+                axeMineable.add(block.get());
+                pickaxeMineable.add(block.get());
+            });
+            ModBlocksAFC.LOG_WALL_CABINETS_SINGLE_DOOR.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.STRIPPED_LOG_WALL_CABINETS_SINGLE_DOOR.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.LOG_WALL_CABINETS_DOUBLE_DOOR.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.STRIPPED_LOG_WALL_CABINETS_DOUBLE_DOOR.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.LOG_WALL_CABINETS_WITH_SHELF.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.STRIPPED_LOG_WALL_CABINETS_WITH_SHELF.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.BASIC_WOODEN_SHELVES.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.BASIC_LOG_SHELVES.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.BASIC_STRIPPED_LOG_SHELVES.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.NIGHT_STANDS_SINGLE_DRAWER.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.NIGHT_STANDS_DOUBLE_DRAWER.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.STRIPPED_NIGHT_STANDS_SINGLE_DRAWER.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+            ModBlocksAFC.STRIPPED_NIGHT_STANDS_DOUBLE_DRAWER.values().forEach(block -> {
+                axeMineable.add(block.get());
+            });
+        }
     }
 }

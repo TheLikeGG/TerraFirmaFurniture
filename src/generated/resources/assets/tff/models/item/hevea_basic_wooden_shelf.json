@@ -1,0 +1,9 @@
+{
+  "parent": "tff:item/shelf/basic_shelf",
+  "textures": {
+    "log": "afc:block/wood/stripped_log_top/hevea",
+    "particle": "afc:block/wood/planks/hevea",
+    "shelf": "afc:block/wood/stripped_log/hevea",
+    "wood": "afc:block/wood/planks/hevea"
+  }
+}

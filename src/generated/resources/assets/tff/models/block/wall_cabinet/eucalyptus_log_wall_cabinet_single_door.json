@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/wall_cabinet/wall_cabinet_single_door",
+  "textures": {
+    "bark": "afc:block/wood/stripped_log/eucalyptus",
+    "handle": "tfc:block/metal/block/brass",
+    "particle": "afc:block/wood/stripped_log/eucalyptus",
+    "wood": "afc:block/wood/log/eucalyptus"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "tff:item/shelf/basic_shelf",
+  "textures": {
+    "log": "afc:block/wood/log_top/mahogany",
+    "particle": "afc:block/wood/log/mahogany",
+    "shelf": "afc:block/wood/planks/mahogany",
+    "wood": "afc:block/wood/log/mahogany"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "afc:block/wood/planks/araucaria",
+    "body": "afc:block/wood/log_top/araucaria",
+    "edges": "afc:block/wood/log/araucaria",
+    "particle": "afc:block/wood/log/araucaria",
+    "trunk": "afc:block/wood/stripped_log/araucaria"
+  }
+}

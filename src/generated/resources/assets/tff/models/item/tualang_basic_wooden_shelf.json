@@ -1,0 +1,9 @@
+{
+  "parent": "tff:item/shelf/basic_shelf",
+  "textures": {
+    "log": "afc:block/wood/stripped_log_top/tualang",
+    "particle": "afc:block/wood/planks/tualang",
+    "shelf": "afc:block/wood/stripped_log/tualang",
+    "wood": "afc:block/wood/planks/tualang"
+  }
+}

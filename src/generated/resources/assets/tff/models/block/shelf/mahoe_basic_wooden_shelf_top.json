@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/shelf/basic_shelf_top",
+  "textures": {
+    "log": "afc:block/wood/stripped_log_top/mahoe",
+    "particle": "afc:block/wood/planks/mahoe",
+    "shelf": "afc:block/wood/stripped_log/mahoe",
+    "wood": "afc:block/wood/planks/mahoe"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "variants": {
+    "east=false,north=false,single=false,south=false,west=false": {
+      "model": "tff:block/table/eucalyptus_table_4_leg",
+      "uvlock": true
+    },
+    "east=false,north=false,single=false,south=false,west=true": {
+      "model": "tff:block/table/eucalyptus_table_2_leg",
+      "uvlock": true
+    },
+    "east=false,north=false,single=false,south=true,west=false": {
+      "model": "tff:block/table/eucalyptus_table_2_leg",
+      "uvlock": true,
+      "y": 270
+    },
+    "east=false,north=false,single=false,south=true,west=true": {
+      "model": "tff:block/table/eucalyptus_table_1_leg",
+      "uvlock": true,
+      "y": 270
+    },
+    "east=false,north=false,single=true,south=false,west=false": {
+      "model": "tff:block/table/eucalyptus_table_4_leg",
+      "uvlock": true
+    },
+    "east=false,north=false,single=true,south=false,west=true": {
+      "model": "tff:block/table/eucalyptus_table_2_leg",
+      "uvlock": true
+    },
+    "east=false,north=false,single=true,south=true,west=false": {
+      "model": "tff:block/table/eucalyptus_table_2_leg",
+      "uvlock": true,
+      "y": 270
+    },
+    "east=false,north=false,single=true,south=true,west=true": {
+      "model": "tff:block/table/eucalyptus_table_1_leg",
+      "uvlock": true,
+      "y": 270
+    },
+    "east=false,north=true,single=false,south=false,west=false": {
+      "model": "tff:block/table/eucalyptus_table_2_leg",
+      "uvlock": true,
+      "y": 90
+    },
+    "east=false,north=true,single=false,south=false,west=true": {
+      "model": "tff:block/table/eucalyptus_table_1_leg",
+      "uvlock": true
+    },
+    "east=false,north=true,single=false,south=true,west=false": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=false,north=true,single=false,south=true,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=false,north=true,single=true,south=false,west=false": {
+      "model": "tff:block/table/eucalyptus_table_2_leg",
+      "uvlock": true,
+      "y": 90
+    },
+    "east=false,north=true,single=true,south=false,west=true": {
+      "model": "tff:block/table/eucalyptus_table_1_leg",
+      "uvlock": true
+    },
+    "east=false,north=true,single=true,south=true,west=false": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=false,north=true,single=true,south=true,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=false,single=false,south=false,west=false": {
+      "model": "tff:block/table/eucalyptus_table_2_leg",
+      "uvlock": true,
+      "y": 180
+    },
+    "east=true,north=false,single=false,south=false,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=false,single=false,south=true,west=false": {
+      "model": "tff:block/table/eucalyptus_table_1_leg",
+      "uvlock": true,
+      "y": 180
+    },
+    "east=true,north=false,single=false,south=true,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=false,single=true,south=false,west=false": {
+      "model": "tff:block/table/eucalyptus_table_2_leg",
+      "uvlock": true,
+      "y": 180
+    },
+    "east=true,north=false,single=true,south=false,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=false,single=true,south=true,west=false": {
+      "model": "tff:block/table/eucalyptus_table_1_leg",
+      "uvlock": true,
+      "y": 180
+    },
+    "east=true,north=false,single=true,south=true,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=true,single=false,south=false,west=false": {
+      "model": "tff:block/table/eucalyptus_table_1_leg",
+      "uvlock": true,
+      "y": 90
+    },
+    "east=true,north=true,single=false,south=false,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=true,single=false,south=true,west=false": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=true,single=false,south=true,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=true,single=true,south=false,west=false": {
+      "model": "tff:block/table/eucalyptus_table_1_leg",
+      "uvlock": true,
+      "y": 90
+    },
+    "east=true,north=true,single=true,south=false,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=true,single=true,south=true,west=false": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    },
+    "east=true,north=true,single=true,south=true,west=true": {
+      "model": "tff:block/table/eucalyptus_table_0_leg",
+      "uvlock": true
+    }
+  }
+}

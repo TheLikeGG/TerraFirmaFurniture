@@ -1,0 +1,8 @@
+{
+  "parent": "tff:block/seat/chair",
+  "textures": {
+    "legs": "afc:block/wood/log/tualang",
+    "particle": "afc:block/wood/planks/tualang",
+    "seat": "afc:block/wood/planks/tualang"
+  }
+}

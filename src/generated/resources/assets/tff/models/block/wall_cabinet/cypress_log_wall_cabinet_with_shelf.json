@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/wall_cabinet/wall_cabinet_with_shelf",
+  "textures": {
+    "bark": "afc:block/wood/stripped_log/cypress",
+    "handle": "tfc:block/metal/block/brass",
+    "particle": "afc:block/wood/stripped_log/cypress",
+    "wood": "afc:block/wood/log/cypress"
+  }
+}

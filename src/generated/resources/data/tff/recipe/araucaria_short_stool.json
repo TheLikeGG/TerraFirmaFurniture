@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "afc"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "c:rods/wooden"
+    },
+    "T": {
+      "item": "afc:wood/lumber/araucaria"
+    }
+  },
+  "pattern": [
+    "TT",
+    "LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:araucaria_short_stool"
+  }
+}

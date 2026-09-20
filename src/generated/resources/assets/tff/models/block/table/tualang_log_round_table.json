@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "afc:block/wood/planks/tualang",
+    "body": "afc:block/wood/log_top/tualang",
+    "edges": "afc:block/wood/log/tualang",
+    "particle": "afc:block/wood/log/tualang",
+    "trunk": "afc:block/wood/stripped_log/tualang"
+  }
+}

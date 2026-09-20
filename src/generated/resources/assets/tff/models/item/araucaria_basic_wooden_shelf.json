@@ -1,0 +1,9 @@
+{
+  "parent": "tff:item/shelf/basic_shelf",
+  "textures": {
+    "log": "afc:block/wood/stripped_log_top/araucaria",
+    "particle": "afc:block/wood/planks/araucaria",
+    "shelf": "afc:block/wood/stripped_log/araucaria",
+    "wood": "afc:block/wood/planks/araucaria"
+  }
+}

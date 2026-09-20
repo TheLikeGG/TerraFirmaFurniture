@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "afc:block/wood/planks/beech",
+    "body": "afc:block/wood/log_top/beech",
+    "edges": "afc:block/wood/log/beech",
+    "particle": "afc:block/wood/log/beech",
+    "trunk": "afc:block/wood/stripped_log/beech"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "afc"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "G": {
+      "item": "afc:wood/log/cypress"
+    },
+    "L": {
+      "item": "afc:wood/stripped_log/cypress"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "C C",
+    "LGL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tff:cypress_stripped_log_wall_cabinet_double_door"
+  }
+}

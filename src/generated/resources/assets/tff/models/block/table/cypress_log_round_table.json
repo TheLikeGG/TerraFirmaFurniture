@@ -1,0 +1,10 @@
+{
+  "parent": "tff:block/table/round_table",
+  "textures": {
+    "base": "afc:block/wood/planks/cypress",
+    "body": "afc:block/wood/log_top/cypress",
+    "edges": "afc:block/wood/log/cypress",
+    "particle": "afc:block/wood/log/cypress",
+    "trunk": "afc:block/wood/stripped_log/cypress"
+  }
+}

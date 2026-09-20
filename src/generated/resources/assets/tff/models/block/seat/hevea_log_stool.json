@@ -1,0 +1,9 @@
+{
+  "parent": "tff:block/seat/log_stool",
+  "textures": {
+    "legs": "afc:block/wood/planks/hevea",
+    "log": "afc:block/wood/log_top/hevea",
+    "particle": "afc:block/wood/log/hevea",
+    "seat": "afc:block/wood/log/hevea"
+  }
+}

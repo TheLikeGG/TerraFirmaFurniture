@@ -2,6 +2,8 @@ package com.likegg.tff.registry;
 
 import com.likegg.tff.TerraFirmaFurniture;
 import com.likegg.tff.blocks.miscellaneous.CandleHolderBlock;
+import com.likegg.tff.compat.AFC;
+import com.likegg.tff.compat.ModItemsAFC;
 import com.likegg.tff.items.TableClothItem;
 import com.mojang.datafixers.util.Pair;
 import net.dries007.tfc.common.blocks.rock.Rock;
@@ -73,23 +75,6 @@ public class ModItems {
 
 
 
-
-    private static Map<Wood, DeferredItem<Item>> registerDrawers(String name) {
-
-        Map<Wood, DeferredItem<Item>> map = new HashMap<>();
-
-        ModBlocks.BASIC_WOODEN_COUNTERS.keySet().forEach(wood -> {
-            String woodName = wood.getSerializedName();
-            DeferredItem<Item> item = ITEMS.register(
-                    woodName + name,
-                    () -> new Item(new Item.Properties())
-            );
-            map.put(wood, item);
-        });
-        return map;
-    }
-
-    /** Generic helper that eliminates all repetitive block-item loops **/
     private static Map<Wood, DeferredItem<Item>> registerBlockItems(Map<Wood, DeferredBlock<Block>> blockMap, String itemSuffix) {
         Map<Wood, DeferredItem<Item>> map = new HashMap<>();
         blockMap.forEach((wood, block) -> {
@@ -101,7 +86,6 @@ public class ModItems {
         });
         return map;
     }
-
 
     private static Map<Pair<Wood, Rock>, DeferredItem<Item>> registerWoodRockCounters(Map<Pair<Wood, Rock>, DeferredBlock<Block>> blockMap, String itemInfix) {
         Map<Pair<Wood, Rock>, DeferredItem<Item>> map = new HashMap<>();
@@ -136,6 +120,14 @@ public class ModItems {
             map.put(metal, item);
         });
         return map;
+    }
+
+
+    // AFC
+    static {
+        if (AFC.isLoaded()) {
+            ModItemsAFC.registerAFCItems();
+        }
     }
 
 }

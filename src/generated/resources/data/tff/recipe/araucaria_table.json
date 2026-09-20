@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "afc"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "afc:wood/log/araucaria"
+    },
+    "T": {
+      "item": "afc:wood/planks/araucaria_slab"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "L L"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tff:araucaria_table"
+  }
+}
